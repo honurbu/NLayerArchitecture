@@ -13,3 +13,5 @@ C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.Repository\obj
 C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.Repository\obj\Debug\net7.0\refint\JwtUser.Repository.dll
 C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.Repository\obj\Debug\net7.0\JwtUser.Repository.pdb
 C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.Repository\obj\Debug\net7.0\ref\JwtUser.Repository.dll
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.Repository\bin\Debug\net7.0\JwtUser.Repository.runtimeconfig.json
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.Repository\obj\Debug\net7.0\JwtUser.Repository.genruntimeconfig.cache

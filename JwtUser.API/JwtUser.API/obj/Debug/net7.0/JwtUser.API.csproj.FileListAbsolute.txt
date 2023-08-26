@@ -81,3 +81,9 @@ C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\
 C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\JwtUser.Service.pdb
 C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\JwtUser.Core.pdb
 C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\JwtUser.Repository.pdb
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Onur\Desktop\Windows Form Projelerim\JwtUser.API\JwtUser.API\bin\Debug\net7.0\System.CodeDom.dll
