@@ -39,7 +39,7 @@ namespace JwtUser.API.Controllers
 
                 var authClaims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Name, user.UserName!),
                     new Claim(ClaimTypes.NameIdentifier, user.Id),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),              
                 };
@@ -64,7 +64,7 @@ namespace JwtUser.API.Controllers
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
-            var userExists = await _userManager.FindByNameAsync(model.UserName);
+            var userExists = await _userManager.FindByNameAsync(model.UserName!);
             if (userExists != null)
                
                 return StatusCode(StatusCodes.Status500InternalServerError, new ResponseDto
@@ -79,7 +79,7 @@ namespace JwtUser.API.Controllers
                 SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = model.UserName
             };
-            var result = await _userManager.CreateAsync(user, model.Password);
+            var result = await _userManager.CreateAsync(user, model.Password!);
             if (!result.Succeeded)
                 return StatusCode(StatusCodes.Status500InternalServerError, new ResponseDto
                 { 
@@ -97,7 +97,7 @@ namespace JwtUser.API.Controllers
 
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
-            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
+            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]!));
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:ValidIssuer"],

@@ -3642,11 +3642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Onur\\Desktop\\Windows Form Projelerim\\JwtUser.API\\JwtUser.Core\\JwtUser.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Onur\\Desktop\\NLayerArchitecture-main\\JwtUser.API\\JwtUser.Core\\JwtUser.Core.csproj",
       "projectName": "JwtUser.Core",
-      "projectPath": "C:\\Users\\Onur\\Desktop\\Windows Form Projelerim\\JwtUser.API\\JwtUser.Core\\JwtUser.Core.csproj",
+      "projectPath": "C:\\Users\\Onur\\Desktop\\NLayerArchitecture-main\\JwtUser.API\\JwtUser.Core\\JwtUser.Core.csproj",
       "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Onur\\Desktop\\Windows Form Projelerim\\JwtUser.API\\JwtUser.Core\\obj\\",
+      "outputPath": "C:\\Users\\Onur\\Desktop\\NLayerArchitecture-main\\JwtUser.API\\JwtUser.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",

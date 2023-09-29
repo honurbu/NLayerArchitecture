@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "54FUvNzwfE+K3jDEXRiUkl9GIHYgaDyH5kdDT++n2amVtvbeW9Ef6Dh64q9Cu0m3QvfjTjYFwM+r91J4paL7NA==",
+  "dgSpecHash": "WSHeYDA/RkD72Od/WAoM/SeQ5qV08iWxCWWQgOMvsqmE80g5J0789A/EGWoMxhkddIupcg8n5pwQZbAwu7XHCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Onur\\Desktop\\Windows Form Projelerim\\JwtUser.API\\JwtUser.Core\\JwtUser.Core.csproj",
+  "projectFilePath": "C:\\Users\\Onur\\Desktop\\NLayerArchitecture-main\\JwtUser.API\\JwtUser.Core\\JwtUser.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Onur\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Onur\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

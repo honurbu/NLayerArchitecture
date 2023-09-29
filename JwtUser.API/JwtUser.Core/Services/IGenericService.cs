@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 namespace JwtUser.Core.Services
 {
-    public interface IGenericService<T> where T : class 
+    public interface IGenericService<T,TDto> where T : class where TDto: class
     {
-        Task AddAsync(T t);
+        Task AddAsync(TDto t);
 
-        Task<IEnumerable<T>> GetAllAsync();
-        IQueryable<T> GetListByFilter(Expression<Func<T, bool>> expression);
+        Task<IEnumerable<TDto>> GetAllAsync();
+        Task<IQueryable<TDto>> GetListByFilter(Expression<Func<T, bool>> expression);
 
-        Task<T> GetByIdAsync(int id);
+        Task<TDto> GetByIdAsync(int id);
 
         void Remove(T t);
 
-        void Update(T entity);
+        void Update(TDto entity);
     }
 }

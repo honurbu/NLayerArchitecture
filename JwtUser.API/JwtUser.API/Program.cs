@@ -4,6 +4,7 @@ using JwtUser.Core.UnitOfWorks;
 using JwtUser.Repository.Context;
 using JwtUser.Repository.Repositories;
 using JwtUser.Repository.UnitOfWorks;
+using JwtUser.Service.Mapping;
 using JwtUser.Service.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -22,9 +23,10 @@ ConfigurationManager configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
+builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
 
 //Db created
